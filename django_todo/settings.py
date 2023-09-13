@@ -37,8 +37,7 @@ if development:
     ALLOWED_HOSTS = [
         '8000-ahmad-hazrati-ci-fsf-hel-8htfnc11mm.us2.codeanyapp.com']
 else:
-    ALLOWED_HOSTS = [os.environ.get(
-        'ckz1208-django-todo-app-0416becfc20f.herokuapp.com')]
+    ALLOWED_HOSTS = ['ckz1208-django-todo-app-0416becfc20f.herokuapp.com']
 
 
 # Application definition
